@@ -1,0 +1,27 @@
+.login_form {
+  border: 3px dotted rgb(136, 107, 107);
+  border-radius: 19px;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.register_btn,
+.login_btn {
+  max-width: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.register_btn:hover,
+.login_btn:hover {
+  box-shadow: 2px 2px 3px black;
+}
+
+body {
+  text-align: center;
+  font-family: cursive;
+}
